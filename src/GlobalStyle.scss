@@ -1,0 +1,33 @@
+// globalStyle.scss
+
+// Importando o reset para garantir uma base consistente
+@import "./Reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// Definindo Variáveis
+$primary-color: #27AE60;
+$secondy-color: #EB5757;
+$gray-600: #333333;
+$gray-300: #828282;
+$gray-100: #E0E0E0;
+$gray-0: #F5F5F5;
+$font-family: "Inter", sans-serif;
+$Helding1: (
+    font-weight: bold,
+    font-size: 226px,
+);
+
+/*.teste{
+    font-weight: map-get($Helding1, font-weight);
+    font-size: map-get($Helding1, font-size)
+}*/
+
+// Definindo estilos globais
+
+// Definindo fontes globais
+
+// Definindo cores globais
+
+// Definindo estilos de link global
+
+// Definindo estilos de botão global

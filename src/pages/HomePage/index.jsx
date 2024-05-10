@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CartModal } from "../../components/CartModal";
 import { Header } from "../../components/Header";
 import { ProductList } from "../../components/ProductList";
+import "./HomePage.scss"
 
 export const HomePage = () => {
    const [productList, setProductList] = useState([]);
@@ -17,7 +18,7 @@ export const HomePage = () => {
    return (
       <>
          <Header />
-         <main>
+         <main className="main">
             <ProductList productList={productList} />
             <CartModal cartList={cartList} />
          </main>

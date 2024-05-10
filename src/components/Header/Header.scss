@@ -1,0 +1,78 @@
+
+
+// Definindo variáveis para cores e tamanhos
+$primary-color: #27AE60;
+$secondary-color: #EB5757;
+$gray-600: #333333;
+$gray-300: #828282;
+$gray-100: #E0E0E0;
+$gray-0: #F5F5F5;
+$icon-size: 21px;
+
+// Estilos para o cabeçalho
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: $gray-100;
+    color: white;
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: $gray-300;
+            margin-right: 10px;
+
+            span {
+                background-color: $primary-color;
+                color: white;
+                border-radius: 50%;
+                padding: 5px;
+                font-size: 14px;
+            }
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+
+            input[type="text"] {
+                padding: 5px;
+                border-radius: 5px;
+                border: none;
+                margin-right: 5px;
+            }
+
+            button[type="submit"] {
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    // Estilizando os ícones do React Icons
+    .react-icons {
+        color: white;
+        margin-right: 5px;
+    }
+
+    .react-icons-md-search {
+        font-size: $icon-size;
+    }
+
+    .react-icons-md-shopping-cart {
+        font-size: $icon-size;
+    }
+}
