@@ -1,16 +1,7 @@
-
-
-// Definindo variáveis para cores e tamanhos
-$primary-color: #27AE60;
-$secondary-color: #EB5757;
-$gray-600: #333333;
-$gray-300: #828282;
-$gray-100: #E0E0E0;
-$gray-0: #F5F5F5;
-$icon-size: 21px;
+@import '../../GlobalStyle.scss';
 
 // Estilos para o cabeçalho
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,10 +60,31 @@ header {
     }
 
     .react-icons-md-search {
-        font-size: $icon-size;
+        
     }
 
     .react-icons-md-shopping-cart {
-        font-size: $icon-size;
+      
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+        
+        img {
+            width: 120px;
+        }
+
+        div {
+            button {
+                margin-right: 5px;
+            }
+
+            form {
+                input[type="text"] {
+                    padding: 3px;
+                    margin-right: 3px;
+                }
+            }
+        }
     }
 }

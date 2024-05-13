@@ -1,7 +1,44 @@
-//HomePage.scss
-@import "../../GlobalStyle.scss"
+@import "../../GlobalStyle.scss";
 
-.main{
-    width: 1300px;
-    background-color: $primary-color;
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+
+   border-radius: 5px;
+   padding: 20px;
+
+   height: 744px;
+   width: 100%;
+   max-width: 1330px;
+   
+
+
+   
+}
+
+/* Estilos para o cabeçalho */
+
+
+/* Estilos para a lista de produtos */
+.product-list {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 20px;
+   justify-items: center;
+
+   @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   }
+
+   @media screen and (max-width: 480px) {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   }
+}
+
+/* Estilos para o modal do carrinho */
+.cart-modal {
+   /* Adicione estilos conforme necessário */
 }

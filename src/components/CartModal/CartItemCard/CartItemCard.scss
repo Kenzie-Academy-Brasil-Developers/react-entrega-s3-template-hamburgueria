@@ -1,0 +1,36 @@
+@import '../../../GlobalStyle.scss';
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+ 
+    .cart-item-details {
+       display: flex;
+       align-items: center;
+ 
+       img {
+          width: 50px;
+          height: 50px;
+          margin-right: 10px;
+       }
+ 
+       h3 {
+          font-size: 16px;
+          margin: 0;
+       }
+    }
+ 
+    .delete-button {
+       background-color: transparent;
+       border: none;
+       cursor: pointer;
+ 
+       svg {
+          fill: #ff0000;
+       }
+    }
+ }
+ 

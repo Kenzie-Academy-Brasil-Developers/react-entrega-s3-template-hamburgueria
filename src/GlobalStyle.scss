@@ -14,8 +14,93 @@ $gray-0: #F5F5F5;
 $font-family: "Inter", sans-serif;
 $Helding1: (
     font-weight: bold,
-    font-size: 226px,
+    font-size: 26px,
+
 );
+$Helding2: (
+    font-weight: bold,
+    font-size: 22px,
+);
+$Helding3: (
+    font-weight: bold,
+    font-size: 18px,
+);
+$Headline: (
+    font-weight: regular,
+    font-size: 16px,
+);
+$Body: (
+    font-weight: regular,
+    font-size: 14px
+);
+$Body-600: (
+    font-weight: semi-bold,
+    font-size: 14px,
+);
+$Caption: (
+    font-weight: regular,
+    font-size: 12px,
+);
+$Button-Default: (
+    width: 130px,
+    height: 60px,
+    radius: 8px,
+    paddding: 0 20px,
+    color: #ffffff,
+    background-colo: #BDBDBD,
+);
+$Button-Default-Hover: (
+    width: 130px,
+    height: 60px,
+    radius: 8px,
+    paddding: 0 20px,
+    color: #ffffff,
+    background-colo: #27AE60,
+);
+$Button-Medium: (
+    width: 130px,
+    height: 40px,
+    radius: 8px,
+    paddding: 0 20px,
+    color: #ffffff,
+    background-colo: #BDBDBD,
+);
+$Button-Medium-Hover: (
+    width: 130px,
+    height: 40px,
+    radius: 8px,
+    paddding: 0 20px,
+    color: #ffffff,
+    background-colo: #27AE60,
+);
+
+$Card-Default: (
+    width: 300px,
+    height: 346px,
+    radius: 5px,
+    border: solid 2px #E0E0E0,
+
+);
+$Card-Hover: (
+    width: 300px,
+    height: 346px,
+    radius: 5px,
+    border: solid 2px #27AE60,
+
+);
+
+
+:root{
+    
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+    font-family: $font-family;
+}
 
 /*.teste{
     font-weight: map-get($Helding1, font-weight);

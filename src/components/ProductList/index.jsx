@@ -1,11 +1,15 @@
+import React from "react";
 import { ProductCard } from "./ProductCard";
+import "./ProductList.scss";
 
-export const ProductList = ({ productList }) => {
+export const ProductList = ({ productList, addToCart }) => {
    return (
-      <ul>
+      <ul className="product-list">
          {productList.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} addToCart={addToCart} />
          ))}
       </ul>
    );
 };
+
+export default ProductList;
