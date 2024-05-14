@@ -5,7 +5,7 @@ import "./CartModal.scss";
 
 export const CartModal = ({ cartList, total, removeFromCart, clearCart, isOpen, onRequestClose }) => {
    const handleItemClick = (event) => {
-      event.stopPropagation(); // Impede a propagação do evento para o modal
+      event.stopPropagation(); 
    };
 
    return (
@@ -26,7 +26,7 @@ export const CartModal = ({ cartList, total, removeFromCart, clearCart, isOpen, 
                               key={product.id}
                               product={product}
                               removeFromCart={removeFromCart}
-                              onClick={handleItemClick} // Adiciona o evento de clique
+                              onClick={handleItemClick} 
                            />
                         ))}
                      </ul>

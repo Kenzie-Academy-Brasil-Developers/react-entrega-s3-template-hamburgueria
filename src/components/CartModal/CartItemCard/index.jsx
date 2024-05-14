@@ -4,7 +4,7 @@ import "./CartItemCard.scss";
 
 export const CartItemCard = ({ product, removeFromCart }) => {
    const handleRemoveFromCart = () => {
-      removeFromCart(product.id); // Chama a função removeFromCart passando o id do produto
+      removeFromCart(product.id); 
    };
 
    return (

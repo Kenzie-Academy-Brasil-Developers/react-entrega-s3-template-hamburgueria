@@ -1,6 +1,6 @@
 @import '../../GlobalStyle.scss';
 
-// Estilos para o cabeçalho
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,6 @@
         }
     }
 
-    // Estilizando os ícones do React Icons
     .react-icons {
         color: white;
         margin-right: 5px;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../assets/Logo.svg";
 import { MdSearch, MdShoppingCart } from "react-icons/md";
-import "./Header.scss"; // Importando o arquivo SCSS
+import "./Header.scss"; 
 
 export const Header = ({ cartItemCount, openCartModal }) => {
    const [searchValue, setSearchValue] = useState("");
