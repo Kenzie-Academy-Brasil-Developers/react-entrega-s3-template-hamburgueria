@@ -1,21 +1,26 @@
 @import '../../../GlobalStyle.scss';
 
-
 .product-card {
     display: flex;
     flex-direction: column;
-    border: 2px solid $gray-300;
+    border: 3px solid $gray-300;
     border-radius: 5px;
-    
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-    height: 346px;
+    max-height: 446px;
     width: 300px;
 
-  
+   
+
+    &:hover {
+        border: 3px solid $primary-color;
+    }
+
     div {
         display: flex;
         flex-direction: column;
+        gap: 20px;
+       
+        padding: 20px;
     }
 
     img {
@@ -35,20 +40,28 @@
     span {
         font-size: 1rem;
         margin-bottom: 5px;
+        color: $gray-300;
+    }
+
+    .price{
+        color: $primary-color;
+        font-weight: bold;
     }
 
     button {
-        background-color: #007bff;
-        color: #fff;
+        background-color: $gray-300;
+        color: $gray-0;
         border: none;
-        padding: 8px 16px;
+        padding: 0, 20px;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
-    }
+        height: 40px;
+        width: 100px;
 
-    button:hover {
-        background-color: #0056b3;
+        &:hover {
+            background-color: $primary-color;
+        }
     }
 
     @media screen and (max-width: 768px) {

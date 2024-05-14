@@ -1,11 +1,9 @@
-// reset.scss
 
-// Box-sizing para todos os elementos
 * {
     box-sizing: border-box;
   }
   
-  // Remover margens e preenchimentos padrão
+
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -27,36 +25,36 @@
     vertical-align: baseline;
   }
   
-  // Reset de listas
+
   ol, ul {
     list-style: none;
   }
   
-  // Reset de elementos incorporados
+
   embed, iframe, object, audio, video {
     display: block;
     vertical-align: middle;
   }
   
-  // Definir o comportamento do link
+
   a {
     text-decoration: none;
     color: inherit;
   }
   
-  // Definir estilos padrão para elementos HTML
+
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
   
-  // Limpar elementos de layout semânticos
+
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section, summary {
     display: block;
   }
   
-  // Limpar elementos de texto
+
   abbr, acronym, address, b, bdi, bdo, big, blockquote, cite, 
   code, del, dfn, em, font, i, ins, kbd, mark, output, q, 
   s, samp, small, strike, strong, sub, sup, tt, u, var, 
@@ -67,37 +65,36 @@
     vertical-align: baseline;
   }
   
-  // Limpar elementos de formulário
+
   button, input, select, textarea {
     margin: 0;
     font: inherit;
     vertical-align: baseline;
   }
-  
-  // Reset de input/textarea
+
   button, input, select, textarea {
     margin: 0;
     font: inherit;
     color: inherit;
   }
   
-  // Restaurar a aparência de texto em input/textarea
+
   button, input, select, textarea {
     text-rendering: auto;
   }
   
-  // Corrigir erro do IE sobre quebra de linha de textarea
+
   textarea {
     overflow: auto;
     resize: vertical;
   }
   
-  // Reset de botão
+  
   button {
     overflow: visible;
   }
   
-  // Redefinir estilos de saída de formulário para os elementos 
+  
   input e button no Safari
   input[type="button"]::-moz-focus-inner, 
   input[type="reset"]::-moz-focus-inner, 
@@ -107,7 +104,7 @@
     padding: 0;
   }
   
-  // Redefinir estilos de saída de formulário para os elementos 
+ 
   input e button no Safari
   input[type="button"]::-webkit-inner-spin-button, 
   input[type="reset"]::-webkit-inner-spin-button, 
@@ -117,7 +114,7 @@
     margin: 0;
   }
   
-  // Redefinir estilos de seleção de formulário para os elementos 
+
   input e button no Safari
   input[type="search"]::-webkit-search-cancel-button, 
   input[type="search"]::-webkit-search-decoration {
